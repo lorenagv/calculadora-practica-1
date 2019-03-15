@@ -12,7 +12,7 @@ try:
 
     while True:
         print("¿Que operacion desea realizar? \n 0= salir (0,0,0)\n 1 = sumar \n 2= multiplicar")
-        opcion = input("Introduce un opcion del menú y dos numeros separados por comas: ")
+        opcion = input("Introduce una opción del menú y dos numeros, todos separados por comas: ")
 
         enviar_mensaje = str.encode(opcion)
         s.send(enviar_mensaje)
